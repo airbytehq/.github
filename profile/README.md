@@ -5,20 +5,29 @@
     <b>Data integration platform for ELT pipelines from APIs, databases & files to databases, warehouses & lakes</b>
 </p>
 <p align="center">
+
 <a href="https://github.com/airbytehq/airbyte/stargazers/" target="_blank">
     <img src="https://img.shields.io/github/stars/airbytehq/airbyte?style=social&label=Star&maxAge=2592000" alt="Test">
 </a>
-<a href="https://airbytehq.slack.com/" target="_blank">
-    <img src="https://img.shields.io/badge/slack-join-white.svg?logo=slack" alt="Slack">
+
+<a href="https://x.com/AirbyteHQ" target="_blank">
+    <img alt="X" src="https://img.shields.io/twitter/follow/Airbyte.svg?style=social&label=Follow">
 </a>
+
 <a href="https://www.youtube.com/c/AirbyteHQ/?sub_confirmation=1" target="_blank">
     <img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCQ_JWEFzs1_INqdhIO3kmrw?style=social">
 </a>
+
+<a href="https://airbytehq.slack.com/" target="_blank">
+    <img src="https://img.shields.io/badge/slack-join-white.svg?logo=slack" alt="Slack">
+</a>
+
 </p>
 
 Products:
 
 - [`Airbyte Cloud`](https://cloud.airbyte.com) - cloud service allows you to focus on moving data while we take care of managing the infrastructure.
+- [`Airbyte Enterprise`](https://docs.airbyte.com/enterprise-setup/) - run Airbyte in own your infrastructure.
 
 Main OSS libraries:
 
