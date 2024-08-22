@@ -27,7 +27,8 @@
 Products:
 
 - [`Airbyte Cloud`](https://cloud.airbyte.com) - cloud service allows you to focus on moving data while we take care of managing the infrastructure.
-- [`Airbyte Enterprise`](https://docs.airbyte.com/enterprise-setup/) - run Airbyte in own your infrastructure.
+- [`Airbyte Enterprise`](https://docs.airbyte.com/enterprise-setup/) - run Airbyte in own your infrastructure with access to Enterprise feature and special support.
+- [`Airbyte Open-Source`](https://docs.airbyte.com/using-airbyte/getting-started/#self-managed-community-oss) - run Airbyte in own infra and have full control over your data.
 
 Main OSS libraries:
 
