@@ -30,14 +30,14 @@ Products:
 - [`Airbyte Enterprise`](https://docs.airbyte.com/enterprise-setup/) - run Airbyte in own your infrastructure with access to Enterprise feature and special support.
 - [`Airbyte Open-Source`](https://docs.airbyte.com/using-airbyte/getting-started/#self-managed-community-oss) - run Airbyte in own infra and have full control over your data.
 
-Main OSS libraries:
+Main Repositories:
 
 - [`Airbyte`](https://github.com/airbytehq/airbyte) - all Airbyte connectors Python and Java, Airbyte CDK and Airbyte CI tools.
 - [`abctl`](https://github.com/airbytehq/abctl) - CI tool to deploy Airbyte anywhere anytime.
 - [`Airbyte Platform`](https://github.com/airbytehq/airbyte-platform) - the core platform and Helm Charts.
 - [`Airbyte Protocol`](https://github.com/airbytehq/airbyte-protocol) - describes a series of standard components and all the interactions between them in order to declare an ELT pipeline.
 
-OSS extensions:
+Extensions:
 
 - [`Terraform`](https://github.com/airbytehq/terraform-provider-airbyte) - declares and have code versioned Airbyte Connectors as code.
 - [`Helm Charts`](https://artifacthub.io/packages/helm/airbyte/airbyte) - run Airbyte on Kubernetes.
