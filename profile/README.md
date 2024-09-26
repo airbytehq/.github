@@ -59,5 +59,5 @@ Extensions:
 
 | Section | Description |
 |-|-|
-| [Company Website](https://airbyte.com) | Airbyte product and company info |
+| [Company Website](https://airbyte.com) | Airbyte product and company information |
 | [Airbyte Documentation](https://docs.airbyte.com/) | Learn how to get started, Airbyte concepts, and our features |
