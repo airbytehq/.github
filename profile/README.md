@@ -51,7 +51,7 @@ Extensions:
 
 - [`Terraform`](https://github.com/airbytehq/terraform-provider-airbyte) - declaratively version Airbyte Connectors as code.
 - [`Helm Charts`](https://artifacthub.io/packages/helm/airbyte/airbyte) - run Airbyte at scale on Kubernetes.
-- [`PyAirbyte`](https://github.com/airbytehq/PyAirbyte) - use Airbyte connectors directly in Python without the Airbyte Platform.
+- [`pyAirbyte`](https://github.com/airbytehq/PyAirbyte) - use Airbyte connectors directly in Python without the Airbyte Platform.
 - [`Airbyte API Python SDK`](https://github.com/airbytehq/airbyte-api-python-sdk) - control the Airbyte Platform using Python.
 - [`Airbyte API Java SDK`](https://github.com/airbytehq/airbyte-api-java-sdk) - control the Airbyte Platform using Java.
 
