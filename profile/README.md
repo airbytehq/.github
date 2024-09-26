@@ -42,7 +42,7 @@ Products:
 
 Main Repositories:
 
-- [`Airbyte`](https://github.com/airbytehq/airbyte) - all Airbyte connectors Python and Java, Airbyte CDK and Airbyte CI tools.
+- [`Airbyte`](https://github.com/airbytehq/airbyte) - all Airbyte connectors (Python and Java), Airbyte CDK and Airbyte CI tools.
 - [`abctl`](https://github.com/airbytehq/abctl) - CI tool to deploy Airbyte anywhere anytime.
 - [`Airbyte Platform`](https://github.com/airbytehq/airbyte-platform) - the core platform and Helm Charts.
 - [`Airbyte Protocol`](https://github.com/airbytehq/airbyte-protocol) - describes a series of standard components and all the interactions between them in order to declare an ELT pipeline.
