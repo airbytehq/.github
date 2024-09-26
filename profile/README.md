@@ -60,4 +60,4 @@ Extensions:
 | Section | Description |
 |-|-|
 | [Company Website](https://airbyte.com) | Airbyte product and company info |
-| [Airbyte Documentation](https://docs.airbyte.com/) | Get started laerning Airbyte concepts and tutorials |
+| [Airbyte Documentation](https://docs.airbyte.com/) | Learn how to get started, Airbyte concepts, and our features |
