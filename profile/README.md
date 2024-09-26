@@ -38,7 +38,7 @@ Products:
 
 - [`Airbyte Cloud`](https://cloud.airbyte.com) - A hosted service that allows you to focus on moving data while we take care of managing the infrastructure
 - [`Airbyte Enterprise`](https://docs.airbyte.com/enterprise-setup/) -  Run Airbyte in your own infrastructure with added security and team features. 
-- [`Airbyte Open-Source`](https://docs.airbyte.com/using-airbyte/getting-started/#self-managed-community-oss) - run Airbyte in own infra and have full control over your data.
+- [`Airbyte Open-Source`](https://docs.airbyte.com/using-airbyte/getting-started/#self-managed-community-oss) - Deploy on your own infrastructure and start moving data 
 
 Main Repositories:
 
