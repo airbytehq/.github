@@ -23,7 +23,7 @@
     <img alt="YouTube Channel Views" src="https://img.shields.io/youtube/channel/views/UCQ_JWEFzs1_INqdhIO3kmrw?style=social">
 </a>
 
-<a href="https://airbytehq.slack.com/" target="_blank">
+<a href="https://slack.airbyte.com/" target="_blank">
     <img src="https://img.shields.io/badge/slack-join-white.svg?logo=slack" alt="Slack">
 </a>
 
