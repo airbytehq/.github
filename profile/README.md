@@ -1,5 +1,10 @@
 <p align="center">
-  <a href="https://airbyte.com"><img src="https://assets.website-files.com/605e01bc25f7e19a82e74788/624d9c4a375a55100be6b257_Airbyte_logo_color_dark.svg" alt="Airbyte"></a>
+  <a href="https://airbyte.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/airbytehq/airbyte-agent-connectors/refs/heads/main/.github/images/logo-dark.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/airbytehq/airbyte-agent-connectors/refs/heads/main/.github/images/logo-light.svg">
+      <img alt="Airbyte Logo" src=".github/images/logo-dark.svg" width="80%">
+    </picture>
 </p>
 <p align="center">
     <b>A comprehensive data infrastructure for replication and AI agents</b>
