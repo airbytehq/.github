@@ -23,12 +23,12 @@
 </a>
 
 </p>
-Airbyte is open-source data and context infrastructure that helps teams move data reliably and give AI agents real-time access to context. Whether you're replicating databases into warehouses for analytics or building agentic applications that need live context from SaaS APIs, Airbyte provides a consistent way to access and move data across systems, backed by a large open-source community and an ever growing ecosystem of connectors. 
+Airbyte is open-source data infrastructure that helps teams move data reliably and give AI agents real-time access to context. Whether you're replicating databases into warehouses for analytics or building agentic applications that need live context from SaaS APIs, Airbyte provides a consistent way to access and move data across systems, backed by a large open-source community and an ever growing ecosystem of connectors. 
 
 ### What Airbyte Offers
 #### 1. Agent Connectors 
 As teams build AI applications and agentic workflows, they need reliable access to real-time context across systems. Airbyte offers a growing set of agent-native connectors: standalone Python SDKs designed for real-time fetch and search operations, with write and trigger operations coming soon. These connectors provide:
-- 10+ agent connectors available as individual Python SDKs
+- 10+ agent connectors available as individual Python SDKs (releasing new connectors weekly)
 - Strongly-typed, well-documented access to third-party APIs
 - Real-time read access to systems like Salesforce, HubSpot, GitHub, Jira, Stripe, Zendesk, Gong, and more
 - MCP interface compatible with modern agent platforms
