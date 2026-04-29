@@ -31,18 +31,18 @@
 Airbyte is open-source data infrastructure that helps teams move data reliably and give AI agents real-time access to context. Whether you're replicating databases into warehouses for analytics or building agentic applications that need live context from SaaS APIs, Airbyte provides a consistent way to access and move data across systems, backed by a large open-source community and an ever growing ecosystem of connectors. 
 
 ### What Airbyte Offers
-#### 1. Agent Connectors 
-As teams build AI applications and agentic workflows, they need reliable access to real-time context across systems. Airbyte offers a growing set of agent-native connectors: standalone Python SDKs designed for real-time fetch and search operations, with write and trigger operations coming soon. These connectors provide:
-- 10+ agent connectors available as individual Python SDKs (releasing new connectors weekly)
+#### 1. Airbyte Agents
+[Airbyte Agents](https://docs.airbyte.com/ai-agents/) is the managed data and context layer for AI agents, giving AI applications, LLMs, and MCP clients real-time, authenticated access to business data (CRMs, support tools, SaaS APIs, databases). Use the managed product, or use the open-source [Airbyte Agent SDK](https://github.com/airbytehq/airbyte-agent-sdk) (`uv pip install airbyte-agent-sdk`) to embed type-safe connectors as LLM tools in your own agent.
+- 10+ agent connectors available today, with new connectors releasing weekly
+- Real-time read access to systems like Salesforce, HubSpot, GitHub, Jira, Stripe, Zendesk, and Gong
 - Strongly-typed, well-documented access to third-party APIs
-- Real-time read access to systems like Salesforce, HubSpot, GitHub, Jira, Stripe, Zendesk, Gong, and more
 - MCP interface compatible with modern agent platforms
-- Built on PydanticAI and compatible with LangChain, LlamaIndex, and other AI libraries. PydanticAI, LangChain, LlamaIndex) and MCP standard
+- Works with pydantic-ai, LangChain, OpenAI Agents, and FastMCP, with built-in retry, exception translation, and output-size guardrails
 
 #### 2. Data Replication
 Airbyte provides the infrastructure for building extract-and-load pipelines from APIs, databases, and files into databases, warehouses, and lakes. It is designed for versatility, scalability, and ease of use.
 The replication connector catalog includes:
-- 600+ pre-built replication and agent connectors: Airbyte’s connector catalog comes “out-of-the-box” with over 600 connectors. These connectors can be used to start replicating data from a source to a destination in just a few minutes.
+- 600+ pre-built replication and agent connectors: Airbyte's connector catalog comes out-of-the-box with over 600 connectors. These connectors can be used to start replicating data from a source to a destination in just a few minutes.
 - No-Code Connector Builder: You can easily extend Airbyte’s functionality to support your custom use cases through tools like the [No-Code Connector Builder](https://docs.airbyte.com/connector-development/connector-builder-ui/overview).
 - The platform: Airbyte’s platform provides all the horizontal services required to configure and scale data movement operations, available as [cloud-managed](https://airbyte.com/product/airbyte-cloud) or open source self-managed.
 - The user interface: Airbyte features a UI, [PyAirbyte](https://docs.airbyte.com/using-airbyte/pyairbyte/getting-started) (Python library), [API](https://docs.airbyte.com/api-documentation), and [Terraform Provider](https://docs.airbyte.com/terraform-documentation) to integrate with your preferred tooling and approach to infrastructure management.
@@ -53,13 +53,13 @@ This foundation is battle-tested in production across thousands of companies and
 ### Products:
 
 - [`Airbyte Cloud`](https://cloud.airbyte.com) - A hosted service that allows you to focus on moving data while we take care of managing the infrastructure
-- [`Airbyte Open-Source`](https://docs.airbyte.com/using-airbyte/getting-started/) - Deploy on your own infrastructure and start moving data 
-- [`Airbyte Embedded`](https://docs.airbyte.com/ai-agents/embedded/) -  Airbyte Embedded enables you to add hundreds of data integrations into your product, allowing end-users to authenticate their sources and sync data to your warehouse 
+- [`Airbyte Open-Source`](https://docs.airbyte.com/using-airbyte/getting-started/) - Deploy on your own infrastructure and start moving data
+- [`Airbyte Agents`](https://docs.airbyte.com/ai-agents/) - The managed data and context layer for AI agents — give AI applications, LLMs, and MCP clients real-time access to business data
 
 ### Main Repositories:
 Highlighted below are the main repositories. We accept community contributions to the [`Airbyte`](https://github.com/airbytehq/airbyte) repo.
 
-- [`airbyte-agent-connectors`](https://github.com/airbytehq/airbyte-ai-connectors) - Python SDKs for use in your app, an agent framework, or MCP
+- [`airbyte-agent-sdk`](https://github.com/airbytehq/airbyte-agent-sdk) - Open-source Python SDK for embedding type-safe connectors as LLM tools in your agent, framework, or MCP server. Works with pydantic-ai, LangChain, OpenAI Agents, and FastMCP.
 - [`Airbyte`](https://github.com/airbytehq/airbyte) - all Airbyte replication connectors, Airbyte CDK and Airbyte CI tools
 - [`abctl`](https://github.com/airbytehq/abctl) -  Command line tool to deploy Airbyte locally or to any single node physical or virtual machine
 - [`Airbyte Platform`](https://github.com/airbytehq/airbyte-platform) - the data replication platform
