@@ -59,7 +59,7 @@ This foundation is battle-tested in production across thousands of companies and
 ### Main Repositories:
 Highlighted below are the main repositories. We accept community contributions to the [`Airbyte`](https://github.com/airbytehq/airbyte) repo.
 
-- [`airbyte-agent-sdk`](https://github.com/airbytehq/airbyte-agent-sdk) - Open-source Python SDK for embedding type-safe connectors as LLM tools in your agent, framework, or MCP server. Works with pydantic-ai, LangChain, OpenAI Agents, and FastMCP.
+- [`airbyte-agent-sdk`](https://github.com/airbytehq/airbyte-agent-sdk) - Open-source Python SDK for embedding type-safe connectors as LLM tools in your agent, framework, or MCP server. Works with Pydantic AI, LangChain, OpenAI Agents, and FastMCP.
 - [`Airbyte`](https://github.com/airbytehq/airbyte) - all Airbyte replication connectors, Airbyte CDK and Airbyte CI tools
 - [`abctl`](https://github.com/airbytehq/abctl) -  Command line tool to deploy Airbyte locally or to any single node physical or virtual machine
 - [`Airbyte Platform`](https://github.com/airbytehq/airbyte-platform) - the data replication platform
