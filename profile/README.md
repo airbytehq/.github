@@ -37,7 +37,7 @@ Airbyte is open-source data infrastructure that helps teams move data reliably a
 - Real-time read access to systems like Salesforce, HubSpot, GitHub, Jira, Stripe, Zendesk, and Gong
 - Strongly-typed, well-documented access to third-party APIs
 - MCP interface compatible with modern agent platforms
-- Works with pydantic-ai, LangChain, OpenAI Agents, and FastMCP, with built-in retry, exception translation, and output-size guardrails
+- Works with Pydantic AI, LangChain, OpenAI Agents, and FastMCP, with built-in retry, exception translation, and output-size guardrails
 
 #### 2. Data Replication
 Airbyte provides the infrastructure for building extract-and-load pipelines from APIs, databases, and files into databases, warehouses, and lakes. It is designed for versatility, scalability, and ease of use.
