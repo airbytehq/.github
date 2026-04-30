@@ -33,7 +33,7 @@ Airbyte is open-source data infrastructure that helps teams move data reliably a
 ### What Airbyte Offers
 #### 1. Airbyte Agents
 [Airbyte Agents](https://docs.airbyte.com/ai-agents/) is the managed data and context layer for AI agents, giving AI applications, LLMs, and MCP clients real-time, authenticated access to business data (CRMs, support tools, SaaS APIs, databases). Use the managed product, or use the open-source [Airbyte Agent SDK](https://github.com/airbytehq/airbyte-agent-sdk) (`uv pip install airbyte-agent-sdk`) to embed type-safe connectors as LLM tools in your own agent.
-- 10+ agent connectors available today, with new connectors releasing weekly
+- 50+ agent connectors available today, with more arriving frequently
 - Real-time read access to systems like Salesforce, HubSpot, GitHub, Jira, Stripe, Zendesk, and Gong
 - Strongly-typed, well-documented access to third-party APIs
 - MCP interface compatible with modern agent platforms
